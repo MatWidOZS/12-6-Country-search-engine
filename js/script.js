@@ -1,9 +1,15 @@
 $(function() {
 
 	var url = 'https://restcountries.eu/rest/v1/name/',
-		countriesList = $('#countries');
+		countriesList = $('#countries'),
+		regionList = $;
 
 	$('#search').click(searchCountries);
+	$('#country-name').keypress(function(enter) {
+		if(enter.which == 13) {
+			searchCountries();
+		}
+	});
 
 	function searchCountries() {
 		var countryName = $('#country-name').val();
@@ -26,3 +32,5 @@ $(function() {
 	}
 
 });
+
+//https://restcountries.eu/
