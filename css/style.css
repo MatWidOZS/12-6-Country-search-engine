@@ -1,1 +1,9 @@
 * { box-sizing: border-box; }
+
+body { background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%); color: #fff; }
+
+h1 { margin-bottom: 20px; }
+
+.btn-default { margin-left: 10px; }
+
+.cont1 { padding-bottom: 5vh; border-bottom: 1px solid #fff; }
