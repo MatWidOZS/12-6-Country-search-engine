@@ -17,3 +17,39 @@ h1 {
 	padding-bottom: 5vh;
 	border-bottom: 1px solid #fff;
 }
+
+#countries {
+	list-style-type: none;
+	display: flex;
+	flex-direction: column;
+}
+
+.country-container {
+	margin-top: 35px;
+	
+	h1 {
+		display: inline-block;
+	}
+
+	.image {
+		display: inline-block;
+		max-width: 200px;
+		margin-right: 20px;
+	}
+
+	h3 {
+		margin-bottom: 15px;
+	}
+
+	.col-md-2 {
+		margin-right: 0;
+		padding-right: 0;
+		margin-left: 0;
+		padding-left: 0;
+	}
+
+	h4 {
+		border-bottom: 1px solid #fff;
+		padding-bottom: 10px;
+	}
+}
